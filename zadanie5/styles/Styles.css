@@ -1,0 +1,32 @@
+body{
+    background-color: lightsteelblue;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color:red;
+}
+form {
+    width: 30%;
+    margin: 0 auto;
+}
+form>p,#hod_lab{
+    color:green;
+}
+.tlacidla{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#valuess{
+    width: 30%;
+    margin: 0 auto;
+}
+#vypis{
+    margin: 0 auto;
+    text-align: center;
+}
+input[type=number] {
+    min-width: 100px;
+    min-height: 30px;
+}
+

@@ -1,0 +1,93 @@
+body{
+    background-color: lightsteelblue;
+    font-size: 20px;
+}
+img{
+    height:20px;
+    width:30px;
+    border: solid red 1px;
+    cursor: pointer;
+}
+.tabulka {
+    text-align:center;
+    border-color: black;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 60%;
+}
+
+.tabulka>thead>tr>th,.tabulka>tbody>tr>td,.tabulka>tbody>tr>th{
+    border: solid black 1px;
+    min-width: 8%;
+}
+
+.tabulka>thead{
+    font-weight:bold;
+    background-color:silver;
+    color:red;
+    border: solid black 1px;
+}
+
+.tabulka>tbody{
+    color:black;
+    border: solid black 1px;
+    background-color:lightgreen;
+}
+
+.navs_{
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:40px;
+}
+.navs_ li{
+    display: inline-block;
+    text-align: center;
+}
+.navs_ li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+}
+
+.navs_ a:hover {
+    background-color: red;
+    color: blue;
+}
+#submit_uploadu{
+    background-color: blue;
+    color:white;
+    width:13%;
+    height:50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+input[type=text], select {
+    height:30px;
+    width:30%;
+    padding: 12px;
+    margin: 25px 8px 8px 8px;
+    border: solid blue 1px;
+    border-radius: 10px;
+}
+input[type=file], select {
+    cursor: pointer;
+    margin:25px;
+}
+form{
+    text-align: center;
+}
+label{
+    color:green;
+    font-size: 26px;
+    margin:25px;
+}
+h2{
+    text-align: center;
+}
+hr{
+    margin-bottom: 20px;
+}

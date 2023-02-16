@@ -1,0 +1,169 @@
+
+body{
+    background-color: lightsteelblue;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+.tlacidla{
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+
+}
+.navs_{
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:40px;
+}
+.navs_ li{
+    display: inline-block;
+    text-align: center;
+}
+.navs_ li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+}
+
+.navs_ a:hover {
+    background-color: red;
+    color: blue;
+}
+
+label{
+    color:green;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+}
+.form-control{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    align-items: center;
+    text-align: center;
+}
+#QR,#historia{
+    display: none;
+}
+
+button,input[type=submit]{
+    margin-top:15px;
+}
+.error{
+    color:red;
+    text-align: center;
+}
+.nonerror{
+    color:green;
+    text-align: center;
+}
+
+
+#google_sign{
+    width: 35%;
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.tabulka {
+    text-align:center;
+    border-color: black;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 70%;
+}
+
+.tabulka>thead>tr>th,.tabulka>tbody>tr>td,.tabulka>tbody>tr>th{
+    border: solid black 1px;
+    min-width: 8%;
+}
+
+.tabulka>thead{
+    font-weight:bold;
+    background-color:silver;
+    color:red;
+    border: solid black 1px;
+}
+
+.tabulka>tbody{
+    color:black;
+    border: solid black 1px;
+    background-color:lightgreen;
+}
+
+.modal_div1{
+    position: fixed;
+    display: none;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+}
+#modal_vrstva1{
+    position: fixed;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+#modal_background1{
+    position: fixed;
+    display: none;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.6);
+    z-index:5;
+}
+
+.modal_div2{
+    position: fixed;
+    display: none;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+}
+#modal_vrstva2{
+    position: fixed;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.modal_div3{
+    position: fixed;
+    display: none;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+}
+#modal_vrstva3{
+    position: fixed;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+

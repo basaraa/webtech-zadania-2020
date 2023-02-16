@@ -1,0 +1,94 @@
+body{
+    background-color: lightsteelblue;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color:red;
+}
+.modal_div{
+    position: fixed;
+    display: none;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+}
+#modal_vrstva{
+    position: fixed;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.modal_div2{
+    position: fixed;
+    display: none;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+}
+#modal_vrstva2{
+    position: fixed;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.modal_div3{
+    position: fixed;
+    display: none;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+}
+#modal_vrstva3{
+    position: fixed;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+#modal_background{
+    position: fixed;
+    display: none;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.6);
+    z-index:5;
+}
+form{
+    display: inline;
+}
+.buttonn{
+    margin-top: 10px;
+}
+.greenc{
+    font-weight: bold;
+    color:green;
+}
+input[type=radio]{
+    margin-left: 8px;
+}
+
+.midd{
+    text-align: center;
+}
+
+.coll{
+    font-weight: bold;
+    color:purple;
+
+}
